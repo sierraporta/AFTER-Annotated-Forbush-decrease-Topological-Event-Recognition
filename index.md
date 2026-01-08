@@ -12,6 +12,9 @@ and provides simple examples of how to use them in your own work.
 
 [Github Repo: https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results)
 
+The complete catalog is at: [AFTER_M_full_catalog.csv](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/AFTER_M_full_catalog.csv)
+The complete catalog is at: [AFTER_M_full_catalog.csv](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/AFTER_M_full_catalog.csv)
+
 ---
 
 ## 1. What is AFTER?
