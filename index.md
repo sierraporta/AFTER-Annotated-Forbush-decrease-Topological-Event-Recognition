@@ -10,7 +10,7 @@ and characterise **Forbush–decrease–like events** in multi–station neutron
 This site documents the public AFTER catalogues, explains how they were constructed,  
 and provides simple examples of how to use them in your own work.
 
-[Github Repo:](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results)
+[Github Repo: https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results)
 
 ---
 
