@@ -88,7 +88,7 @@ The **medium configuration** is referred to as **AFTER–M** and is the default 
 
 ## 4. Catalogue files
 
-All catalogue files live in the [`results/`](./results) directory of this repository.
+All catalogue files live in the [https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results) directory of this repository.
 
 ### 4.1 Station–level event lists
 
