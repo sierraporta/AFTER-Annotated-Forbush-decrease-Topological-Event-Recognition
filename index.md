@@ -56,10 +56,10 @@ At a very high level, the AFTER pipeline has four stages:
    Each station’s 2-minute count rate is smoothed, and a slowly varying  
    background is estimated by a multi–hour moving average.  
    The main amplitude channel is the **fractional change relative to background**,  
-   \(\Delta N_s(t)\) (in percent).
+   $\Delta N_s(t)$ (in percent).
 
 2. **Sliding–window complexity**  
-   On sliding windows (\(\sim\)3 h) for each station, AFTER computes two markers:
+   On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
    - *Normalised permutation entropy* (ordinal complexity of the time series),
    - *Katz fractal dimension* (geometric roughness of the trajectory).  
    These are standardised (median + MAD) over a multi–year reference period and  
@@ -78,14 +78,14 @@ At a very high level, the AFTER pipeline has four stages:
 4. **Network–level coincidences and quality classes**  
    Station–level events with similar times are grouped into **network events**.  
    Each network event is annotated with:
-   - station multiplicity \(n_{\text{st}}\),
+   - station multiplicity $n_{\text{st}}$,
    - mean/max fractional decrease across stations,
    - mean/max complexity amplitude across stations.  
 
    A **quality class** summarises strength and coherence:
 
-   - **A** – multi–station events (\(n_{\text{st}} \ge 3\)),  
-   - **B** – bi–station events (\(n_{\text{st}} = 2\)),  
+   - **A** – multi–station events $(n_{\text{st}} \ge 3$),  
+   - **B** – bi–station events $(n_{\text{st}} = 2$),  
    - **C** – strong single–station events,  
    - **D** – marginal events.
 
