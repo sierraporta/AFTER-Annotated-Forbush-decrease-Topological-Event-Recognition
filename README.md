@@ -51,6 +51,10 @@ Sierra-Porta, D. (2025). AFTER: Annotated Forbush–decrease Topological Event R
 ## License
 This project is licensed under the MIT License.
 
+## For questions, comments or suggestions, please contact:
+David Sierra-Porta, Universidad Tecnológica de Bolívar (UTB). Email: dporta@utb.edu.co. 
+Contributions and constructive feedback are very welcome — feel free to open an issue or submit a pull request.
+
 ---
 
 ## Repository structure
