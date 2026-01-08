@@ -1,5 +1,6 @@
 ---
-title: AFTER – Annotated Forbush–decrease Topological Event Recognition
+layout: default
+title: "AFTER – Annotated Forbush–decrease Topological Event Recognition"
 ---
 
 # AFTER: A Complexity–Aware Catalogue of Forbush Decreases
