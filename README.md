@@ -71,3 +71,22 @@ A suggested organisation is:
 │
 ├── requirements.txt
 └── README.md
+
+## Data sources
+- Neutron monitor data: downloaded from the Neutron Monitor Database (NMDB), https://www.nmdb.eu
+- Reference FD catalogue (2019): Forbush Effects and Interplanetary Disturbances (FEID) catalogue provided by IZMIRAN, http://spaceweather.izmiran.ru/eng/dbs.html
+
+Please cite NMDB / contributing stations and the IZMIRAN FEID catalogue if you reuse the data or catalogues.
+
+## How to cite
+If you use the AFTER method, catalogues or scripts in a publication, please cite:
+
+D. Sierra-Porta, et al. Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases
+(journal and DOI to be added when available).
+
+You can also cite this repository directly, for example as:
+Sierra-Porta, D. (2025). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. https://github.com/<your-user>/<your-repo>
+
+## License
+Specify your preferred license here, for example:
+This project is licensed under the MIT License – see the LICENSE file for details.
