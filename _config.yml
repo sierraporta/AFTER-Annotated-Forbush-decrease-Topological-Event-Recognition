@@ -1,0 +1,10 @@
+title: "AFTER – Annotated Forbush–decrease Topological Event Recognition"
+description: "A complexity-aware catalogue of Forbush decreases from multi-station neutron-monitor data."
+theme: jekyll-theme-tactile
+
+# Opcional pero recomendable:
+show_downloads: false
+github:
+  is_project_page: true
+  owner_name: "sierraporta"
+  project_tagline: "Complexity-aware Forbush decrease catalogue (2019–2025)"
