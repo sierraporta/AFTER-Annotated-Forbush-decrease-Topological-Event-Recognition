@@ -49,8 +49,7 @@ You can also cite this repository directly, for example as:
 Sierra-Porta, D. (2025). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/<your-user>/<your-repo>](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)
 
 ## License
-Specify your preferred license here, for example:
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ---
 
