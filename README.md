@@ -77,14 +77,5 @@ This project is licensed under the MIT License.
 │   ├── sierra_M_2019_catalog.csv           # AFTER-M 2019 full annotated catalogue
 │   └── izmiran_2019_with_sierra_flags.csv  # IZMIRAN 2019 + AFTER match flags
 │
-├── src/                                    # helper functions (optional)
-│   └── after_utils.py
-│
-├── figures/
-│   ├── after_year_level_summary.png
-│   ├── after_vs_izmiran_recall.png
-│   └── after_cases_2021_2024.png
-│
-├── requirements.txt
 └── README.md
 
