@@ -5,11 +5,9 @@ title: "AFTER – Annotated Forbush–decrease Topological Event Recognition"
 
 # AFTER: A Complexity–Aware Catalogue of Forbush Decreases
 
-**AFTER** (Annotated Forbush–decrease Topological Event Recognition) is a framework to detect  
-and characterise **Forbush–decrease–like events** in multi–station neutron–monitor data.
+**AFTER** (Annotated Forbush–decrease Topological Event Recognition) is a framework to detect and characterise **Forbush–decrease–like events** in multi–station neutron–monitor data.
 
-This site documents the public AFTER catalogues, explains how they were constructed,  
-and provides simple examples of how to use them in your own work.
+This site documents the public AFTER catalogues, explains how they were constructed, and provides simple examples of how to use them in your own work.
 
 [Github Repo: https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results)
 
@@ -20,22 +18,18 @@ The complete catalog for 2019 is at: [AFTER_M_2019_catalog.csv](https://github.c
 
 ## 1. What is AFTER?
 
-Forbush decreases (FDs) are transient depressions in the galactic cosmic–ray flux associated  
-with interplanetary coronal mass ejections (ICMEs), shocks and stream interaction regions.  
-Most existing FD catalogues are **amplitude–driven**: an event is selected if the cosmic–ray  
+Forbush decreases (FDs) are transient depressions in the galactic cosmic–ray flux associated with interplanetary coronal mass ejections (ICMEs), shocks and stream interaction regions. Most existing FD catalogues are **amplitude–driven**: an event is selected if the cosmic–ray  
 intensity drops below some threshold at one or a few neutron monitors.
 
 **AFTER takes a different route.**
 
 Instead of using only the depth of the depression, AFTER:
-
 - works on a **network** of neutron monitors;
 - tracks not only the **fractional decrease** but also the **temporal organisation** of the signal;
 - combines geometric and ordinal **complexity measures** (permutation entropy and Katz fractal dimension);
 - groups station–level detections into **network–level coincidences** with quality labels.
 
-The goal is to obtain a **reproducible, complexity–aware catalogue** that complements  
-existing lists such as the IZMIRAN Forbush–effect catalogue and the Lockwood FD list.
+The goal is to obtain a **reproducible, complexity–aware catalogue** that complements existing lists such as the IZMIRAN Forbush–effect catalogue and the Lockwood FD list.
 
 ---
 
@@ -48,9 +42,7 @@ The current version of AFTER uses:
 - for the period **2019–2025** (inclusive),
 - plus the IZMIRAN Forbush–effect list for **2019** as an external benchmark.
 
-The raw count rates are taken from the [Neutron Monitor Database (NMDB)](https://www.nmdb.eu).  
-AFTER uses only publicly available data; no station–specific corrections beyond those provided  
-by NMDB are applied.
+The raw count rates are taken from the [Neutron Monitor Database (NMDB)](https://www.nmdb.eu).  AFTER uses only publicly available data; no station–specific corrections beyond those provided  by NMDB are applied.
 
 ---
 
@@ -59,10 +51,7 @@ by NMDB are applied.
 At a very high level, the AFTER pipeline has four stages:
 
 1. **Station–level preprocessing**  
-   Each station’s 2-minute count rate is smoothed, and a slowly varying  
-   background is estimated by a multi–hour moving average.  
-   The main amplitude channel is the **fractional change relative to background**,  
-   $\Delta N_s(t)$ (in percent).
+   Each station’s 2-minute count rate is smoothed, and a slowly varying background is estimated by a multi–hour moving average.  The main amplitude channel is the **fractional change relative to background**, $\Delta N_s(t)$ (in percent).
 
 2. **Sliding–window complexity**  
    On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
@@ -74,16 +63,14 @@ At a very high level, the AFTER pipeline has four stages:
 3. **Station–level event detection**  
    Candidate events are defined around local minima of the count rate where **both**:
    - the mean fractional decrease over the event, and
-   - the maximum complexity amplitude  
-   exceed prescribed thresholds.  
+   - the maximum complexity amplitude exceed prescribed thresholds.  
    This step is run in three configurations:
    - **strict** (few but very strong candidates),
    - **medium** (balanced, used as default catalogue),
    - **loose** (many candidates, high recall).
 
 4. **Network–level coincidences and quality classes**  
-   Station–level events with similar times are grouped into **network events**.  
-   Each network event is annotated with:
+   Station–level events with similar times are grouped into **network events**.  Each network event is annotated with:
    - station multiplicity $n_{\text{st}}$,
    - mean/max fractional decrease across stations,
    - mean/max complexity amplitude across stations.  
