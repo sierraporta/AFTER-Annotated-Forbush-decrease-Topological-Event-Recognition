@@ -72,7 +72,6 @@ The goal is to obtain a **reproducible, complexity–aware catalogue** that comp
 
 ## 2. Data and time span
 The current version of AFTER uses:
-
 - 2-minute, pressure–corrected neutron–monitor counts from **ten NMDB stations** (MXCO, JUNG1, LMKS, KERG, OULU, NEWK, DOMC, INVK, APTY, AATB),
 - for the period **2019–2025** (inclusive),
 - plus the IZMIRAN Forbush–effect list for **2019** as an external benchmark.
@@ -85,19 +84,19 @@ The raw count rates are taken from the [Neutron Monitor Database (NMDB)](https:/
 At a very high level, the AFTER pipeline has four stages:
 
 1. **Station–level preprocessing**  
-   Each station’s 2-minute count rate is smoothed, and a slowly varying background is estimated by a multi–hour moving average.  The main amplitude channel is the **fractional change relative to background**, $\Delta N_s(t)$ (in percent).
+  Each station’s 2-minute count rate is smoothed, and a slowly varying background is estimated by a multi–hour moving average.  The main amplitude channel is the **fractional change relative to background**, $\Delta N_s(t)$ (in percent).
 
 2. **Sliding–window complexity**  
-   - On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
+  On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
      - *Normalised permutation entropy* (ordinal complexity of the time series),
      - *Katz fractal dimension* (geometric roughness of the trajectory).  
-   - These are standardised (median + MAD) over a multi–year reference period and combined into a single **complexity amplitude** $A_{\text{complex},s}(t)$.
+  These are standardised (median + MAD) over a multi–year reference period and combined into a single **complexity amplitude** $A_{\text{complex},s}(t)$.
 
 3. **Station–level event detection**  
-   - Candidate events are defined around local minima of the count rate where **both**:
+  Candidate events are defined around local minima of the count rate where **both**:
      - the mean fractional decrease over the event, and
      - the maximum complexity amplitude exceed prescribed thresholds.  
-   - This step is run in three configurations:
+  This step is run in three configurations:
      - **strict** (few but very strong candidates),
      - **medium** (balanced, used as default catalogue),
      - **loose** (many candidates, high recall).
@@ -109,7 +108,6 @@ At a very high level, the AFTER pipeline has four stages:
    - mean/max complexity amplitude across stations.  
 
    A **quality class** summarises strength and coherence:
-
    - **A** – multi–station events $(n_{\text{st}} \ge 3$),  
    - **B** – bi–station events $(n_{\text{st}} = 2$),  
    - **C** – strong single–station events,  
@@ -134,8 +132,7 @@ Each row contains one **station–level** candidate with columns such as:
 - `A_complex_mean`, `A_complex_max` – mean and maximum complexity amplitude,
 - additional flags and diagnostics.
 
-These are mostly useful if you want to build your own grouping criteria  
-or explore station–specific behaviour.
+These are mostly useful if you want to build your own grouping criteria or explore station–specific behaviour.
 
 ### 4.2 Network–level coincidence catalogues
 - `sierra_coincidences_strict.csv`
