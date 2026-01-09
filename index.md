@@ -9,17 +9,59 @@ title: "AFTER – Annotated Forbush–decrease Topological Event Recognition"
 
 This site documents the public AFTER catalogues, explains how they were constructed, and provides simple examples of how to use them in your own work.
 
-[Github Repo: https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results)
+<div style="border:1px solid #ddd; border-radius:6px; padding:0.9em 1.1em; margin:1.2em 0; background:#f9f9f9;">
 
-The complete catalog is at: [AFTER_M_full_catalog.csv](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/AFTER_M_full_catalog.csv)
-The complete catalog for 2019 is at: [AFTER_M_2019_catalog.csv](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/sierra_M_2019_catalog.csv))
+<p>
+This site documents the public AFTER catalogues, explains how they were constructed,
+and provides simple examples of how to use them in your own work.
+</p>
+
+<ul>
+  <li>
+    <strong>Results directory:</strong><br>
+    <a href="https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results">
+      GitHub repo – <code>Results/</code> folder
+    </a>
+  </li>
+  <li>
+    <strong>Full AFTER–M catalogue (2019–2025):</strong><br>
+    <a href="https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/AFTER_M_full_catalog.csv">
+      AFTER_M_full_catalog.csv
+    </a>
+  </li>
+  <li>
+    <strong>AFTER–M 2019 catalogue:</strong><br>
+    <a href="https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/blob/main/Results/sierra_M_2019_catalog.csv">
+      AFTER_M_2019_catalog.csv
+    </a>
+  </li>
+</ul>
+
+</div>
+
+
+
+## How to cite
+If you use the AFTER method, catalogues or scripts in a publication, please cite:
+
+D. Sierra-Porta, et al. Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases
+(journal and DOI to be added when available).
+
+You can also cite this repository directly, for example as:
+Sierra-Porta, D. (2025). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/<your-user>/<your-repo>](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)
+
+## License
+This project is licensed under the MIT License.
+
+## For questions, comments or suggestions, please contact:
+David Sierra-Porta, Universidad Tecnológica de Bolívar (UTB). Email: dporta@utb.edu.co. 
+Contributions and constructive feedback are very welcome — feel free to open an issue or submit a pull request.
 
 ---
 
 ## 1. What is AFTER?
 
-Forbush decreases (FDs) are transient depressions in the galactic cosmic–ray flux associated with interplanetary coronal mass ejections (ICMEs), shocks and stream interaction regions. Most existing FD catalogues are **amplitude–driven**: an event is selected if the cosmic–ray  
-intensity drops below some threshold at one or a few neutron monitors.
+Forbush decreases (FDs) are transient depressions in the galactic cosmic–ray flux associated with interplanetary coronal mass ejections (ICMEs), shocks and stream interaction regions. Most existing FD catalogues are **amplitude–driven**: an event is selected if the cosmic–ray intensity drops below some threshold at one or a few neutron monitors.
 
 **AFTER takes a different route.**
 
