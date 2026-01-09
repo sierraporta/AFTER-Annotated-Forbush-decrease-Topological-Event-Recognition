@@ -37,8 +37,7 @@ The goal is to obtain a **reproducible, complexity–aware catalogue** that comp
 
 The current version of AFTER uses:
 
-- 2-minute, pressure–corrected neutron–monitor counts from **ten NMDB stations**  
-  (MXCO, JUNG1, LMKS, KERG, OULU, NEWK, DOMC, INVK, APTY, AATB),
+- 2-minute, pressure–corrected neutron–monitor counts from **ten NMDB stations** (MXCO, JUNG1, LMKS, KERG, OULU, NEWK, DOMC, INVK, APTY, AATB),
 - for the period **2019–2025** (inclusive),
 - plus the IZMIRAN Forbush–effect list for **2019** as an external benchmark.
 
@@ -54,20 +53,19 @@ At a very high level, the AFTER pipeline has four stages:
    Each station’s 2-minute count rate is smoothed, and a slowly varying background is estimated by a multi–hour moving average.  The main amplitude channel is the **fractional change relative to background**, $\Delta N_s(t)$ (in percent).
 
 2. **Sliding–window complexity**  
-   On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
-   - *Normalised permutation entropy* (ordinal complexity of the time series),
-   - *Katz fractal dimension* (geometric roughness of the trajectory).  
-   These are standardised (median + MAD) over a multi–year reference period and  
-   combined into a single **complexity amplitude** \(A_{\text{complex},s}(t)\).
+   - On sliding windows $(\sim$3 h) for each station, AFTER computes two markers:
+     - *Normalised permutation entropy* (ordinal complexity of the time series),
+     - *Katz fractal dimension* (geometric roughness of the trajectory).  
+   - These are standardised (median + MAD) over a multi–year reference period and combined into a single **complexity amplitude** $A_{\text{complex},s}(t)$.
 
 3. **Station–level event detection**  
-   Candidate events are defined around local minima of the count rate where **both**:
-   - the mean fractional decrease over the event, and
-   - the maximum complexity amplitude exceed prescribed thresholds.  
-   This step is run in three configurations:
-   - **strict** (few but very strong candidates),
-   - **medium** (balanced, used as default catalogue),
-   - **loose** (many candidates, high recall).
+   - Candidate events are defined around local minima of the count rate where **both**:
+     - the mean fractional decrease over the event, and
+     - the maximum complexity amplitude exceed prescribed thresholds.  
+   - This step is run in three configurations:
+     - **strict** (few but very strong candidates),
+     - **medium** (balanced, used as default catalogue),
+     - **loose** (many candidates, high recall).
 
 4. **Network–level coincidences and quality classes**  
    Station–level events with similar times are grouped into **network events**.  Each network event is annotated with:
