@@ -44,7 +44,7 @@ If you use the AFTER method, catalogues or scripts in a publication, please cite
 _*D. Sierra-Porta (2026). Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases (journal and DOI to be added when available).*_
 
 You can also cite this repository directly, for example as:
-_*Sierra-Porta, D. (2026). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/<your-user>/<your-repo>](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)*_
+_*Sierra-Porta, D. (2026). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)*_
 
 #### License
 This project is licensed under the MIT License.
