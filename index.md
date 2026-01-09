@@ -41,16 +41,16 @@ and provides simple examples of how to use them in your own work.
 #### How to cite
 If you use the AFTER method, catalogues or scripts in a publication, please cite:
 
-_*D. Sierra-Porta (2026). Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases (journal and DOI to be added when available).*_
+_D. Sierra-Porta (2026). Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases (journal and DOI to be added when available)._
 
 You can also cite this repository directly, for example as:
-_*Sierra-Porta, D. (2026). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)*_
+_Sierra-Porta, D. (2026). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main) _
 
 #### License
 This project is licensed under the MIT License.
 
 #### For questions, comments or suggestions, please contact:
-_*David Sierra-Porta, Universidad Tecnológica de Bolívar (UTB). Email: dporta@utb.edu.co.*_
+_David Sierra-Porta, Universidad Tecnológica de Bolívar (UTB). Email: dporta@utb.edu.co._
 
 Contributions and constructive feedback are very welcome — feel free to open an issue or submit a pull request.
 
