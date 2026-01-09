@@ -38,7 +38,7 @@ and provides simple examples of how to use them in your own work.
 </div>
 
 
-## How to cite
+#### How to cite
 If you use the AFTER method, catalogues or scripts in a publication, please cite:
 
 D. Sierra-Porta, et al. Annotated Forbush–decrease Topological Event Recognition (AFTER): a complexity-aware catalogue of neutron-monitor Forbush decreases
@@ -47,21 +47,19 @@ D. Sierra-Porta, et al. Annotated Forbush–decrease Topological Event Recogniti
 You can also cite this repository directly, for example as:
 Sierra-Porta, D. (2025). AFTER: Annotated Forbush–decrease Topological Event Recognition. GitHub repository. [https://github.com/<your-user>/<your-repo>](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main)
 
-## License
+#### License
 This project is licensed under the MIT License.
 
-## For questions, comments or suggestions, please contact:
+#### For questions, comments or suggestions, please contact:
 David Sierra-Porta, Universidad Tecnológica de Bolívar (UTB). Email: dporta@utb.edu.co. 
 Contributions and constructive feedback are very welcome — feel free to open an issue or submit a pull request.
 
 ---
 
 ## 1. What is AFTER?
-
 Forbush decreases (FDs) are transient depressions in the galactic cosmic–ray flux associated with interplanetary coronal mass ejections (ICMEs), shocks and stream interaction regions. Most existing FD catalogues are **amplitude–driven**: an event is selected if the cosmic–ray intensity drops below some threshold at one or a few neutron monitors.
 
 **AFTER takes a different route.**
-
 Instead of using only the depth of the depression, AFTER:
 - works on a **network** of neutron monitors;
 - tracks not only the **fractional decrease** but also the **temporal organisation** of the signal;
@@ -73,7 +71,6 @@ The goal is to obtain a **reproducible, complexity–aware catalogue** that comp
 ---
 
 ## 2. Data and time span
-
 The current version of AFTER uses:
 
 - 2-minute, pressure–corrected neutron–monitor counts from **ten NMDB stations** (MXCO, JUNG1, LMKS, KERG, OULU, NEWK, DOMC, INVK, APTY, AATB),
@@ -85,7 +82,6 @@ The raw count rates are taken from the [Neutron Monitor Database (NMDB)](https:/
 ---
 
 ## 3. How AFTER works (high–level)
-
 At a very high level, the AFTER pipeline has four stages:
 
 1. **Station–level preprocessing**  
@@ -124,17 +120,14 @@ The **medium configuration** is referred to as **AFTER–M** and is the default 
 ---
 
 ## 4. Catalogue files
-
 All catalogue files live in the [https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results](https://github.com/sierraporta/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/tree/main/Results) directory of this repository.
 
 ### 4.1 Station–level event lists
-
 - `sierra_events_strict.csv`
 - `sierra_events_medium.csv`
 - `sierra_events_loose.csv`
 
 Each row contains one **station–level** candidate with columns such as:
-
 - `station` – NMDB station code (e.g. `JUNG1`),
 - `onset_time`, `min_time`, `rec_time` – onset, minimum and recovery timestamps,
 - `drop_mean`, `drop_max` – mean and maximum fractional decrease (%),
@@ -145,13 +138,11 @@ These are mostly useful if you want to build your own grouping criteria
 or explore station–specific behaviour.
 
 ### 4.2 Network–level coincidence catalogues
-
 - `sierra_coincidences_strict.csv`
 - `sierra_coincidences_medium.csv`
 - `sierra_coincidences_loose.csv`
 
 Each row is a **network–level event** (coincidence across stations) with:
-
 - `repr_time` – representative time (median of station minima),
 - `year` – year of the event,
 - `n_stations` – number of stations contributing,
@@ -162,7 +153,6 @@ Each row is a **network–level event** (coincidence across stations) with:
 - configuration tags (strict / medium / loose).
 
 ### 4.3 AFTER–M catalogue for 2019
-
 - `sierra_M_2019_catalog.csv`
 
 This is the main **AFTER–M network catalogue for 2019**,  
@@ -175,11 +165,9 @@ Additional columns indicate:
   in AFTER and IZMIRAN.
 
 ### 4.4 IZMIRAN list with AFTER flags
-
 - `izmiran_2019_with_sierra_flags.csv`
 
 The 2019 IZMIRAN Forbush–effect list, augmented with:
-
 - the nearest AFTER–M event (if any),
 - time difference in hours,
 - and basic AFTER properties at the match (drop, complexity, multiplicity).
@@ -190,7 +178,6 @@ and ask “what does AFTER say about this event?”.
 ---
 
 ## 5. How to use the catalogue (example in Python)
-
 Here is a minimal example of how to load and explore the AFTER–M 2019 catalogue in Python:
 
 ```python
