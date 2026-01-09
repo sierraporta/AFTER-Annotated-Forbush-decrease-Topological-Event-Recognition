@@ -196,3 +196,4 @@ A_events = after_2019[after_2019["quality"] == "A"]
 
 # Plot the distribution of mean fractional decrease
 A_events["drop_mean"].hist(bins=20)
+```
