@@ -7,9 +7,7 @@ title: "AFTER – Annotated Forbush–decrease Topological Event Recognition"
 
 **AFTER** (Annotated Forbush–decrease Topological Event Recognition) is a framework to detect and characterise **Forbush–decrease–like events** in multi–station neutron–monitor data.
 
-This site documents the public AFTER catalogues, explains how they were constructed, and provides simple examples of how to use them in your own work.
-
-<div style="border:1px solid #ddd; border-radius:6px; padding:0.9em 1.1em; margin:1.2em 0; background:#f9f9f9;">
+<div class="link-box">
 
 <p>
 This site documents the public AFTER catalogues, explains how they were constructed,
@@ -38,7 +36,6 @@ and provides simple examples of how to use them in your own work.
 </ul>
 
 </div>
-
 
 
 ## How to cite
