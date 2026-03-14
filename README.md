@@ -11,6 +11,10 @@ The revised version of the project uses a **single station-level detector** comb
 
 This repository contains the processed catalogues, validation summaries, representative figures, and analysis scripts associated with the revised AFTER workflow applied to ten NMDB stations over **2018–2025**.
 
+**Suggested manuscript citation placeholder**
+Sierra-Porta, D. AFTER: A support-based, complexity-aware framework for identifying FD-like depressions in multi-station neutron-monitor data (2018–2025).
+[manuscript in revision / update with final journal reference]
+
 ---
 
 ## What AFTER does
