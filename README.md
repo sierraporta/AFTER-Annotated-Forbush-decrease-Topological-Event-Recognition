@@ -2,6 +2,8 @@
 
 AFTER is a support-based, complexity-aware framework for identifying and annotating **FD-like depressions** in multi-station neutron-monitor data.
 
+https://sierraporta.github.io/AFTER-Annotated-Forbush-decrease-Topological-Event-Recognition/
+
 The revised version of the project uses a **single station-level detector** combined with an explicit **network-support stage**. Instead of building separate strict / medium / loose catalogues, the final workflow produces:
 
 - a full detector-based catalogue,
