@@ -1,0 +1,4 @@
+t_izmiran,repr_time,dt_hours,n_supported_stations,n_support_only_stations,supported_stations,support_only_stations,quality,mean_supported_drop,promoted_from_single_trigger
+2019-08-05 01:00:00+00:00,2019-08-05 01:00:00+00:00,0.0,5,0,"APTY,INVK,JUNG1,KERG,LMKS",,A,3.5829514439800314,False
+2019-09-06 02:00:00+00:00,2019-09-06 02:06:00+00:00,0.1,2,1,"INVK,JUNG1",JUNG1,B,3.504637398393486,True
+2019-10-07 12:00:00+00:00,2019-10-07 11:38:00+00:00,-0.36666666666666664,3,2,"INVK,JUNG1,KERG","INVK,JUNG1",B,3.5226305423966235,True

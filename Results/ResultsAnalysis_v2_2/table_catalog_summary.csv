@@ -1,0 +1,5 @@
+subset,n_total,n_2019,mean_supported_stations,median_supported_stations,mean_supported_drop,n_promoted_from_single_trigger
+all,700,90,4.764285714285714,4.0,4.187106685538251,190
+core_main,605,75,5.355371900826446,5.0,4.291243293151177,190
+core_conservative,552,66,5.574275362318841,5.0,4.327980311479963,190
+exploratory,95,15,1.0,1.0,3.5239209212664617,0
