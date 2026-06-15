@@ -1,0 +1,30 @@
+{
+  "nmdb_cols": [
+    "NEWK",
+    "KIEL2",
+    "KERG",
+    "OULU",
+    "APTY",
+    "FSMT",
+    "JUNG",
+    "JUNG1",
+    "LMKS",
+    "DRBS",
+    "ATHN",
+    "MXCO",
+    "NANM",
+    "CALM",
+    "ROME",
+    "AATB",
+    "BKSN"
+  ],
+  "omni_cols": [
+    "IMF_avg",
+    "BX",
+    "BY",
+    "BZ",
+    "Speed",
+    "Density",
+    "Temperature"
+  ]
+}
