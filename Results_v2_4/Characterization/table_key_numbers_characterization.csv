@@ -1,0 +1,12 @@
+metric,value
+n_total,908.0
+n_matched_36h,729.0
+n_SSC,75.0
+n_SI,13.0
+n_CIR,641.0
+n_unmatched,179.0
+pct_matched,80.3
+mean_nsup_SSC,11.08
+mean_nsup_CIR,6.17
+median_dt_SSC,6.0
+median_dt_CIR,11.2

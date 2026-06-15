@@ -1,0 +1,4 @@
+driver,N_feid,N_after,N_amp,N_both,N_after_only,N_amp_only,N_neither,pct_after,pct_amp,pct_after_only
+SSC,112,75,42,32,43,10,27,66.96,37.5,38.39
+SI,21,13,8,5,8,3,5,61.9,38.1,38.1
+CIR,1342,534,160,52,482,108,700,39.79,11.92,35.92

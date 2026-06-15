@@ -1,0 +1,5 @@
+subset,N,mean_nsup,med_nsup,N_promoted,mean_drop,pct_confirmed
+All,908,6.57,6.0,213,4.36,93.94
+Core main,827,7.12,6.0,213,4.4,93.47
+Core conservative,764,7.4,6.0,213,4.4,93.72
+Exploratory,81,1.0,1.0,0,3.89,98.77

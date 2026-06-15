@@ -1,0 +1,7 @@
+group,var,mean,median,std
+Confirmed,Bz_min,-6.9,-5.95,4.09
+Confirmed,Speed_max,532.49,524.31,109.6
+Confirmed,IMF_max,11.9,10.56,5.59
+Unconfirmed,Bz_min,-5.0,-4.75,2.11
+Unconfirmed,Speed_max,448.77,432.25,81.4
+Unconfirmed,IMF_max,9.91,8.6,3.87
